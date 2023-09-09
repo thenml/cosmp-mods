@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "cosmp_utils",
+	"version": "1.0.1",
+	"name": "cosmp Utils",
+	"description": "Mod for the cosmp server",
+	"authors": [
+		"nml"
+	],
+	"contact": {
+		"homepage": "https://thenml.github.io/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cosmp_utils/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nml.cosmp_utils.cosmpUtils"
+		]
+	},
+	"mixins": [
+		"cosmp_utils.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

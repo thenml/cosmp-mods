@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.nml.cosmp_utils.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"SlotMixin",
+		"FireworkRocketItemMixin",
+		"EntityDataSaverMixin",
+		"PlayerEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
